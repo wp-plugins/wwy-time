@@ -41,8 +41,8 @@ It's best to use the build in delete function of wordpress. That way all the sto
 
 == Screenshots ==
 
-screenshot2.png
-screenshot.png
+screenshot-1.png
+screenshot-2.png
 
 == Changelog ==
 
