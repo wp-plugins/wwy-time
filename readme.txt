@@ -41,8 +41,8 @@ It's best to use the build in delete function of wordpress. That way all the sto
 
 == Screenshots ==
 
-screenshot-1.png
-screenshot-2.png
+1. This is the front-end
+2. This is the back-end
 
 == Changelog ==
 
