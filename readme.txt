@@ -14,7 +14,7 @@ Interactive and dynamic map with timeline and markers.
 WWYTime wordpress plugin will help you embed the Interactive and dynamic map with timeline and markers from wwytimeline.com.
 
 The whole plugin now available for sale on 
-http://codecanyon.net/item/wwy-timeline-map/6507876
+http://wwytimeline.com
 
 More maps available!
 
