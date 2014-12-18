@@ -60,7 +60,9 @@ It's best to use the build in delete function of wordpress. That way all the sto
 
 == Screenshots ==
 
-soon
+screenshot-1.png
+screenshot-2.png
+screenshot-3.png
 
 == Frequently Asked Questions ==
 
