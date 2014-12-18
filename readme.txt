@@ -60,9 +60,9 @@ It's best to use the build in delete function of wordpress. That way all the sto
 
 == Screenshots ==
 
-screenshot-1.png
-screenshot-2.png
-screenshot-3.png
+1. This is the back-end
+2. This is the back-end
+3. This is the front-end
 
 == Frequently Asked Questions ==
 
