@@ -13,9 +13,9 @@ Interactive and dynamic map with timeline and markers.
 
 WWY wordpress plugin. Interactive and dynamic map with timeline and markers.
 
-Considering all the advices given in http://codex.wordpress.org/Writing_a_Plugin, http://codex.wordpress.org/Creating_Options_Pages and http://planetozh.com/blog/2009/09/top-10-most-common-coding-mistakes-in-wordpress-plugins/
+Make money with this plugin!
 
-Demo: http://wwy.waitington.com
+Demo and you can download the complete plugin here: http://wwy.waitington.com
 
 Plug-in functions:
 
