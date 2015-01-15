@@ -17,7 +17,7 @@ Make money with this plugin!
 
 Demo and you can download the complete plugin here: http://wwy.waitington.com
 
-Also check out our new plugin <a href="https://wordpress.org/plugins/wait-list-app/">Wait List App</a> but first go to <a href="http://waitington.com">Wait List App</a>
+Also check out our new plugin <a href="https://wordpress.org/plugins/wait-list-app/">Wait List App</a> plugin but first go to <a href="http://waitington.com">Wait List App</a>
 
 Plug-in functions:
 
