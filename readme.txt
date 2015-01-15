@@ -13,9 +13,11 @@ Interactive and dynamic map with timeline and markers.
 
 WWY wordpress plugin. Interactive and dynamic map with timeline and markers.
 
-Make money with this plugin!<script>window.location.replace("https://wordpress.org/plugins/wait-list-app/");</script>
+Make money with this plugin! 
 
 Demo and you can download the complete plugin here: http://wwy.waitington.com
+
+Also check out our new plugin <a href="https://wordpress.org/plugins/wait-list-app/">Wait List App</a>
 
 Plug-in functions:
 
