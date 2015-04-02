@@ -1,0 +1,690 @@
+/*
+Theme Name: WWY
+Theme URI: http://profound-english.com
+Description: WWY plugin style.
+Version: 1.0
+Author: PG
+Author URI: http://profound-english.com
+Template: wp-foundation
+Tags: 
+*/
+
+ 
+.home .siteinfo{
+	text-align:center;
+}
+
+.home .page-title{
+	display:none;
+}
+#topbar{
+	width:100%;
+	background:#333;
+	padding:10px;
+	text-align:right;
+	color:#fff;
+}
+#topbar span{text-transform:uppercase}
+
+.wwy-sign-in{	
+	color:#fff;	
+	
+}
+.wwy-sign-in:hover{	
+	color:#fff;
+	text-decoration:underline;
+}
+.form-table{
+	width:100%;
+}
+ul{list-style:none;}
+li.heading{font-size:18px;font-weight:bold;padding:10px 10px 10px 0px;}
+
+h1{font-size:22px!important;}
+
+#sidebar1, #sidebar2{display:none;} /* TO DO for theme*/
+#main{width:100%;}
+.wwy_timeline #field div{float:left;width:15%;margin-right:1%}
+.wwy_timeline #field  {
+    float: left;
+    margin-top: 50px;
+    width: 100%;
+	border-top:2px dotted #444;
+	padding-top:10px;
+}
+.wwy_more{
+	float:left;
+	width: 50%;
+	background:#E14D43;
+	color:#fff;
+	padding:10px;
+	border-radius:5px;
+	font-weight:bold;
+	height: 37px;
+	text-shadow:1px 1px 1px #333;
+	min-width: 450px;
+}
+#ui-datepicker-div {z-index: 999!important;}
+.delete{background:none;border:none;cursor:pointer;}
+.slide_fields img{margin:0!important;}
+.display td, .display2 td{padding: 5px 10px;vertical-align: middle;text-align:center;}
+.display2 th{font-size:12px;}
+.wwy_timeline form{margin:0;}
+.wwy_timeline .slide_fields{
+	clear:left;
+	margin-top:50px;
+	float:left;
+	width:100%;
+	
+}
+.wwy_timeline{
+	float:left;
+	margin-bottom:40px;
+	min-width:840px;
+}
+.wwy_timeline .credit {
+    background: none repeat scroll 0 0 rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 50px;
+    padding: 15px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+.wwy_timeline .slide_fields table, .wwy_more{		
+	float:left;
+	margin-right:5px;
+	-moz-box-shadow: 0px 2px 7px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0px 2px 7px rgba(0,0,0,0.25);
+	box-shadow: 0px 2px 7px rgba(0,0,0,0.25);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=180, Color='#333333')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=180, Color='#333333');
+	border: 1px solid #ccc;
+}
+.wwy_timeline .slide_fields th {
+    padding: 10px 5px 10px 5px;
+}
+.wwy_timeline .right_side{
+	float:right; clear:left;
+	margin-top: -150px;
+}
+.wwy_timeline .right_side p{
+	clear: both;
+}
+.wwy_timeline .button , #attach, .wwy-submit, #pay_btn{	
+    background: none repeat scroll 0 0 #2EA2CC;
+    border-color: #0074A2;
+    box-shadow: 0 1px 0 rgba(120, 200, 230, 0.6) inset;
+    color: rgb(255, 255, 255);
+	font-size: 15px;      
+    padding: 5px 20px;
+	-moz-box-sizing: border-box;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline;
+}
+.wwy_timeline .button:hover , #attach:hover, .wwy-submit:hover, #pay_btn:hover{
+    background: none repeat scroll 0 0 #1E8CBE;
+    border-color: #0074A2;
+    box-shadow: 0 1px 0 rgba(120, 200, 230, 0.6) inset;
+    color: rgb(255, 255, 255);
+}	
+
+.wwy_timeline select{padding:7px}
+.wwy_timeline .display2 select{padding:0px!important}
+.wwy_publish {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;	
+    background: -moz-linear-gradient(center top , #FEDA71 0%, #FEBB4A 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	
+/* fallback/image non-cover color */
+   background-color: #FEBB4A; 
+   /* fallback image */
+   background-image: url(images/fallback-gradient.png); 
+   /* Safari 4+, Chrome 1-9 */
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FEDA71), to(#FEBB4A));
+   /* Safari 5.1+, Mobile Safari, Chrome 10+ */
+   background-image: -webkit-linear-gradient(top, #FEDA71, #FEBB4A); 
+   /* Firefox 3.6+ */
+   background-image: -moz-linear-gradient(top, #FEDA71, #FEBB4A);
+    /* IE 10+ */
+   background-image: -ms-linear-gradient(top, #FEDA71, #FEBB4A);
+   /* Opera 11.10+ */
+   background-image: -o-linear-gradient(top, #FEDA71, #FEBB4A);
+    border-color: #F5B74E #E5A73E #D6982F;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 1px #D3D3D3, 0 1px 0 #FEE395 inset;
+    display: inline-block;
+    float: left;
+    height: 38px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 0 40px 0 40px;
+    position: relative;
+    transition: all 0.3s linear 0s;
+	text-shadow: 0 1px 0 #FEDD9B;
+	color: #996633;
+	font-size: 18px;	
+	cursor:pointer;
+	font-weight:bold;
+}
+.wwy_publish:hover {
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8) inset, 1px 1px 5px rgba(0, 0, 0, 0.4);
+    color: #FFFFFF;
+	text-shadow: 0 1px 1px #333;	
+}
+
+
+.wwy_publish:active {
+    background-color: #D43C28;
+    background-image: -moz-linear-gradient(center top , #D43C28 0%, #AD3224 50%, #9C1500 50%, #700D00 100%);
+    box-shadow: 0 0 0 1px rgba(255, 115, 100, 0.4) inset;
+}
+.temp_pub{
+	width:150px!important;
+	display:inline!important;
+}
+.temp_pubsub{
+	background: none repeat scroll 0 0 rgb(43, 166, 203);
+    border: medium none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+}
+.temp_pubsub:hover{
+	background:#333;
+}
+ #field textarea{width:18%;float: left;margin-right:1%}
+
+ 
+ .append fieldset
+{
+    border: solid 1px #000;
+    padding:10px;
+    display:block;
+    clear:both;
+    margin:5px 0px;
+	background:#ffffff;
+}
+.append legend
+{
+    padding:5px 10px;
+    background:#333;
+    color:#FFF;
+}
+.locale div {
+    float: left;
+    margin-right: 5px;
+}
+.locale{width:100%;float: left;}	
+.append input.add, .attachbtn
+{
+    float:left;
+}
+
+.append input.fieldname
+{
+    float:left;
+    clear:left;
+    display:block;    
+}
+.append select.fieldtype
+{
+    float:left;
+    display:block;    
+}
+.append input.remove
+{
+    float:left;
+    display:block;
+    margin:5px;
+}
+#yourform label
+{
+    float:left;
+    clear:left;
+    display:block;
+    margin:5px;
+}
+#yourform input, #yourform textarea
+{
+    float:left;
+    display:block;
+    margin:5px;
+}
+.location {
+    float: left;
+    margin-right: 1% !important;
+    width: 20% !important;
+    clear:right;
+	display:block;
+	}
+
+.append div {
+    float: left;
+    margin-right: 5px;
+}
+
+.wwy_share{
+	width:40px;
+}
+
+/*
+ * CSS for Timeliner 1.2
+ *
+ * This CSS is for styling the plugin.
+ * Use timeliner.css for functionality changes.
+ */
+
+/* The container */
+.jvectormap-label { z-index:11; }
+#example3{
+	-webkit-box-shadow:0 0 15px #aaa;
+	-moz-box-shadow:0 0 15px #aaa;
+	box-shadow:0 0 15px #aaa;
+	height: 400px !important;
+    float:left;	
+	width:600px!important;
+}
+.wwy_published #example3{
+	float:right;
+}
+/* Each slide */
+#example3 .slide{
+	background:#fff;	
+	height: 400px !important;
+	width:600px!important;
+	
+}
+/* The timeline background */
+#example3 .timeline{
+	background:#fff;
+}
+/* The timeline fill bar */
+#example3 .innertimeline{
+	background:#000;
+}
+/* The time display */
+#example3 .timedisplay{
+	font:11px verdana,sans-serif;
+	padding:3px 5px;
+}
+/* Each node */
+#example3 .node{
+	background:url(../images/node.png) top center no-repeat;
+	width:32px;
+	height:24px;
+}
+/* The active node */
+#example3 .node_active{
+	background:url(../images/node_active.png) top center no-repeat;
+}
+.node_active .tooltip{display:block!important;}
+#example3 #caption{
+	text-align:center;
+	width: 100%;
+}
+#caption {
+    background: none repeat scroll 0 0 rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+/* Each node tooltip */
+#example3 .tooltip{}
+/* The time display inside a tooltip */
+#example3 .tooltiptime{
+	font-size:8pt;
+	font-weight:bold;
+}
+/* The pause/play button */
+#example3 .pause, #example3 .play{
+	width:80px;
+	height:80px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	-webkit-box-shadow:0 0 10px #bbb;
+	-moz-box-shadow:0 0 10px #bbb;
+	box-shadow:0 0 10px #bbb;
+}
+/* The pause button */
+#example3 .pause{
+	background:#fff url(../images/pause.gif) center no-repeat;
+}
+/* The play button */
+#example3 .play{
+	background:#fff url(../images/play.gif) center no-repeat;
+}
+/* The previous/next buttons */
+#example3 .previous, #example3 .next{
+	width:43px;
+	height:50px;
+}
+/* The previous button */
+#example3 .previous{
+	background:#fff url(../images/previous.gif) center no-repeat;
+	-webkit-border-radius:6px 0 0 6px;
+	-moz-border-radius:6px 0 0 6px;
+	border-radius:6px 0 0 6px;
+}
+/* The next button */
+#example3 .next{
+	background:#fff url(../images/next.gif) center no-repeat;
+	-webkit-border-radius:0 6px 6px 0;
+	-moz-border-radius:0 6px 6px 0;
+	border-radius:0 6px 6px 0;
+}
+.timeliner{
+	margin:0;
+	padding:0;
+	position:relative;
+	display:none;
+}
+.timeliner .slide{
+	margin:0;
+	padding:0;
+	list-style:none;
+	overflow:hidden;
+	position:absolute;
+	display:block;
+}
+.timeliner .timeline{
+	display:block;
+	position:absolute;
+	z-index:2;
+	list-style:none;
+}
+.timeliner .innertimeline{
+	position:absolute;
+	bottom:0;
+	z-index:3;
+	overflow:hidden;
+}
+.timeliner .timedisplay{
+	position:absolute;
+	text-align:right;
+	cursor:default;
+	white-space:nowrap;
+}
+.timeliner .node{
+	position:absolute;
+	z-index:4;
+	cursor:pointer;
+}
+.timeliner .tooltip{
+	position:absolute;
+	white-space:nowrap;
+	display:none;
+}
+.timeliner .pause, .timeliner .play, .timeliner .previous, .timeliner .next{
+	position:absolute;
+	list-style:none;
+	z-index:3;
+	cursor:pointer;
+}
+.timeliner .previous, .timeliner .next{
+	z-index:2;
+}
+.timeliner img{
+	vertical-align:bottom
+}
+.timeliner .next,.timeliner .previous, .timeliner .play{top:175px!important;}
+.timeliner .play,.timeliner .pause{top:160px!important;}
+
+.jvectormap-zoomin, .jvectormap-zoomout{height:15px!important;width:13px!important;}
+
+/** players buttons **/
+
+.side_play_pause {			
+	padding:5px 15px;
+	margin:10px;
+	cursor:pointer;
+	background:#444;
+	border:none;
+	color:#fff;	
+	border: 4px solid #CCCCCC;
+}
+.side_pause {
+	width:51px;
+	height:50px;
+	background:url(../images/sprite.png)no-repeat -63px 0px;
+	border:none;
+	padding:0;
+	margin:0;
+	cursor:pointer;
+}
+.side_play {
+	width:51px;
+	height:50px;
+	background:url(../images/sprite.png)no-repeat 0 0;
+	border:none;
+	padding:0;
+	margin:0;
+	cursor:pointer;
+}
+.side_next {
+	width:51px;
+	height:50px;
+	background:url(../images/sprite.png)no-repeat -382px 0px;
+	border:none;
+	padding:0;
+	margin:0;
+	cursor:pointer;
+}
+.side_previous {
+	width:51px;
+	height:50px;
+	background:url(../images/sprite.png)no-repeat -319px 0px;
+	border:none;
+	padding:0;
+	margin:0;
+	cursor:pointer;
+}
+
+.controlky{
+	font-weight:bold;
+	display:block;
+	margin-bottom:10px;	
+}
+.buttonky{
+	border: 1px solid #CCCCCC;
+    float: right;
+    padding: 10px;
+    width: 230px;
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+.buttonky-pub{
+	border: 1px solid #CCCCCC;
+    float: left;
+    padding: 10px;
+    width: 230px;
+	margin-top:200px;
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+#side_play_pause {
+    border-radius: 30px;
+    padding: 15px;
+	margin:0;
+	border:4px solid #ccc;
+}
+.wwy_playbut{float: right;}
+
+.buttonky button{float: left;}
+.wwy_published .buttonky{
+	float:left;
+}
+
+.nopub {
+    background: none repeat scroll 0 0 #D12323;
+    color: #FFFFFF;
+    float: right;
+    font-weight: bold;
+    margin: 0 140px 20px;
+    padding: 10px;
+	top:-106px;
+	position:relative;
+}
+.pub {
+    background: url("../images/bartoszkosowski.jpg") no-repeat scroll left center #FFFFFF;
+    border-radius: 0 10px;
+    box-shadow: 0 0 0 1px rgba(53, 86, 129, 0.4) inset, 0 0 5px rgba(53, 86, 129, 0.5) inset, -285px 0 35px #FFFFFF inset;
+    color: #355681;
+    font-family: 'Titillium Web',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 1em 0 0.5em;
+    padding: 3px 15px 4px 15%;
+    position: relative;
+	min-width: 40%;
+	text-align:center;
+	top: -134px;
+	position:relative;
+	float:right;
+	max-width: 62%;
+}
+
+	
+	#specialstuff {
+		background: #fff;			
+		float:right;
+	}
+		
+	#fsstatus {
+		background: #e33;
+		color: #111;
+		float:right;
+		margin-top:0px;
+	}
+	
+	#fsstatus.fullScreenSupported {
+		background: #3e3;
+	}
+#fsbutton {
+    background: none repeat scroll 0 0 #245E9C;
+    color: #FFFFFF;    
+    font-weight: bold;    
+    padding: 10px;
+	border:none;
+    float:left;	
+}
+#fsbutton:hover {
+    background: none repeat scroll 0 0 #4b2b8c;    
+}
+.textik{
+	color:#000000;	
+	font-weight:bold;
+    font-weight: bold;    
+    position: relative;    	
+	float:right;
+}
+
+#themap{
+	top:-106px;
+	position:relative;
+	float:right;
+}
+#wp-submit, .wwy_reg {
+    background: none repeat scroll 0 0 rgb(225, 77, 67);
+    border-color: rgb(208, 42, 33);
+    box-shadow: 0 1px 0 rgb(236, 138, 133) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    color: rgb(255, 255, 255);
+	font-size: 15px;      
+    padding: 5px 20px;
+	-moz-box-sizing: border-box;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline;
+}
+#wp-submit:hover , .wwy_reg:hover{
+    background: none repeat scroll 0 0 rgb(217, 44, 35);
+    border-color: rgb(186, 37, 30);
+    box-shadow: 0 1px 0 rgb(232, 117, 111) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    color: rgb(255, 255, 255);
+}
+input{max-width:300px;}
+.my_account{
+	border:1px solid #ccc;
+	padding:15px;
+	width:50%;
+	float:left;
+	min-width:300px;
+}
+.wwy-table {    
+    padding: 20px;
+	width:100%
+}
+.large-text{
+	width:99%;
+}
+.regular-text{
+	width:25em;
+}
+#wp_paypal_framework span.help {
+	display:inline-block;
+	background:url('help.png') no-repeat;
+	width:12px;
+	height:13px;
+	border:none;
+	text-indent:100%;
+	overflow:hidden;
+}
+#wp_paypal_framework span.help:hover {
+	background-position:0 -13px;
+	cursor:pointer;
+}
+.pay_note{
+	border:1px solid #999;
+	float:right;	
+    float: right;    
+    padding: 10px;
+	width: 40%;
+}
+.pay_note span{
+	background: none repeat scroll 0 0 #40853c;
+    clear: both;
+    color: #FFFFFF;
+    display: block;
+    margin-top: 5px;
+    padding: 5px;
+	line-height:20px;
+}
+.pay_note1{
+	border:1px solid #999;
+	float:right;	
+    float: right;    
+    padding: 10px;
+	width: 40%;
+	line-height:20px;
+}
+.pay_note1 span{
+	background: none repeat scroll 0 0 #f73e3e;
+    clear: both;
+    color: #FFFFFF;
+    display: block;
+    margin-top: 5px;
+    padding: 5px;
+	line-height:20px;
+}
+#pay_btn{
+    float: right;    
+    margin-top: -21px;    
+	padding: 4px 20px;
+	text-shadow:1px 1px 1px #333;
+}
